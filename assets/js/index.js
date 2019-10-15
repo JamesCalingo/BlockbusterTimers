@@ -9,7 +9,7 @@ timeUp = () => {
   buzzer.play();
   if (buzzer.currentTime >= 1) {
     buzzer.pause()
-  }
+  };
   isTimerOn = false;
 }
 
@@ -18,8 +18,8 @@ $("#round1").on("click", function (e) {
   clearInterval(intervalID);
   ticking.currentTime = 0;
   ticking.play();
-  ticking.playbackRate = 5
-  ticking.loop = true
+  ticking.playbackRate = 5;
+  ticking.loop = true;
   isTimerOn = true;
   intervalID = setInterval(timeUp, 15000)
 })
@@ -29,6 +29,8 @@ $("#round2").on("click", function (e) {
   clearInterval(intervalID);
   ticking.currentTime = 0;
   ticking.play();
+  ticking.playbackRate = 1.1;
+  ticking.loop = true;
   isTimerOn = true;
   intervalID = setInterval(timeUp, 30000)
 })

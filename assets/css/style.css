@@ -2,3 +2,9 @@ body{
   background: blue;
   color: gold
 }
+
+.btn{
+  font-size: 30pt;
+  background: gold;
+  color: blue
+}

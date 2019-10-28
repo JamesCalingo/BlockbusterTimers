@@ -14,5 +14,6 @@ Rules for the game this is meant for are on the app itself.
 
 You can download or clone the files from this repository if you want to run this app offline by simply going into your computer's command line and using the command
 ```
-git clone
+git clone git@github.com:JamesCalingo/BlockbusterTimers.git
 ```
+With your SSH key.
